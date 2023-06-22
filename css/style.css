@@ -6,7 +6,7 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(120deg, #cd9bf7b8, #ff2525da);
+    background: linear-gradient(120deg, #cd9bf7b8, #25ccffda);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,10 +18,21 @@ body {
     justify-content: space-around;
     height: 200px;
     width: 550px;
-    background: #e9d83fd2;
-    border-radius: 3px;
-    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.849);
-    
+    background: #25ccffda;
+    border-radius: 17px;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.849);
+    border: solid 5px #080808d2;
+}
+
+@media (max-width: 600px){
+    .relogio {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 450px;
+        width: 180px;
+        padding: 25px;
+    }
 }
 
 .relogio div {
@@ -31,11 +42,34 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    color: #a4fc31 ;
     background: rgba(5,5,5,.9);
     box-shadow: 5px 5px 15px rgba(0,0,0, .7);
-    border-radius: 7px;
+    border-radius: 25px;
     letter-spacing: 3px;
+}
+
+@media (max-width: 600px) {
+    .relogio div {
+        height: 120px;
+        width: 130px;
+
+    }
+}
+
+.relogio, #horas, #minutos, #segundos {
+    font-size: 60px;
+}
+
+
+.tempo {
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width:600px) {
+    .relogio, #horas, #minutos, #segundos {
+        font-size: 40px;
+    }
 }
 
 .relogio span {
@@ -43,6 +77,11 @@ body {
     font-size: 20px;
 }
 
+@media (max-width:600px) {
+    .relogio span {  
+        font-size: 15px;
+    }
+}
 .relogio span .tempo {
     font-size: 10px;
 }
