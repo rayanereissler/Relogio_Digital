@@ -28,3 +28,10 @@
 
 ![tela_mobile](https://github.com/rayanereissler/Relogio_Digital/assets/94932481/3c748793-8cfa-4fb4-9c0c-7062a13a28f7)
 
+<br>
+
+## Segue o link executável abaixo para quem quiser dar uma olhada 	&#128279;
+
+<br>
+
+### [Clicar aqui!](https://rayanereissler.github.io/Relogio_Digital/)
